@@ -23,7 +23,7 @@ export default function Home() {
         </p>
 
         <div className="flex flex-wrap items-center justify-around max-w-4xl mt-6 sm:w-full">
-          {!data && "Loading..."}
+          {!data && "Sharpening Knife..."}
           {data && data.map(imgPath => <img src={imgPath} alt="DEath"/>)}
 
          {/* <a href="" className="p-6 mt-6 text-left border w-96 rounded-xl hover:text-blue-600 focus:text-blue-600">
