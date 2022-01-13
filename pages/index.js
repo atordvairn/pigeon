@@ -24,7 +24,7 @@ export default function Home() {
 
         <div className="flex flex-wrap items-center justify-around max-w-4xl mt-6 sm:w-full">
           {!data && "Loading..."}
-          {data && data.map(imgPath => <img src={imgPath} alt=""/>)}
+          {data && data.map(imgPath => <img style="margin: 15px; border-radius: 10px;height: 300px;flex-wrap: wrap;" src={imgPath} alt=""/>)}
 
          {/* <a href="" className="p-6 mt-6 text-left border w-96 rounded-xl hover:text-blue-600 focus:text-blue-600">
            <Image
