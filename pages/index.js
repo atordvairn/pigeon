@@ -12,13 +12,13 @@ export default function Home() {
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet" />
-         <title>pegions- famously known as cool creators on earth 🌎</title>
+         <title>pigeon- famously known as cool creators on earth 🌎</title>
         <link rel="icon" href="/1.jpg" />
       </Head>
 
       <main className="flex flex-col items-center justify-center w-full flex-1 px-20 text-center">
         <h1 className="text-6xl font-light">
-         pegions
+         pigeon
         </h1>
 
         <p className="mt-3 text-2xl">
@@ -34,7 +34,7 @@ export default function Home() {
       <footer className="text-center m-3 p-5 items-center justify-center w-full h-24 border-t">
         (c) atordvairn {new Date().getFullYear()} All Rights Reserved.
         <br /><br />
-        <Link href="https://github.com/atordvairn/pegions">Add Another Cool Guy</Link>
+        <Link href="https://github.com/atordvairn/pigeon">Add Another Cool Guy</Link>
       </footer>
     </div>
   )
