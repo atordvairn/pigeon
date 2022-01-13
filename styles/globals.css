@@ -9,6 +9,7 @@ img {
   flex-wrap: wrap;
   transition: .6s;
   width: 1rem;
+  height: auto;
 }
 
 img:hover {
