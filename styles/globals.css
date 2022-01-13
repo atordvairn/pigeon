@@ -7,6 +7,8 @@ img {
   border-radius: 10px;
   box-shadow: 5px 10px 18px #888888;
   flex-wrap: wrap;
+  transition: .6s;
+  width: 1rem;
 }
 
 img:hover {
