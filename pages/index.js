@@ -31,10 +31,10 @@ export default function Home() {
         </div>
       </main>
       <br /><br />
-      <footer className="text-center m-3 p-3 items-center justify-center w-full h-24 border-t">
+      <footer className="text-center m-3 p-5 items-center justify-center w-full h-24 border-t">
         (c) atordvairn {new Date().getFullYear()} All Rights Reserved.
         <br /><br />
-        <Link href="https://github.com/atordvairn/pegions">Add Another One</Link>
+        <Link href="https://github.com/atordvairn/pegions">Add Another Cool Guy</Link>
       </footer>
     </div>
   )
