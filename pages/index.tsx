@@ -27,14 +27,14 @@ export default function Home() {
           {!data && "Loading..."}
           {data && data.map(imgPath => <img src={imgPath} alt=""/>)}
 
-          <a href="" className="p-6 mt-6 text-left border w-96 rounded-xl hover:text-blue-600 focus:text-blue-600">
+         {/* <a href="" className="p-6 mt-6 text-left border w-96 rounded-xl hover:text-blue-600 focus:text-blue-600">
            <Image
              src={}
              height={300}
              width={auto}
              placeholder="blur"
            />
-          </a>
+          </a>*/}
 
         </div>
       </main>
