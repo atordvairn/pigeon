@@ -6,7 +6,7 @@ module.exports = {
   theme: {
     extend: {},
     fontFamily: {
-      sans: ['Oswald', ...defaultTheme.fontFamily.sans],
+      sans: ['Oswald'],
     },
   },
   plugins: [],
