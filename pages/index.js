@@ -40,7 +40,7 @@ export default function Home() {
       <br /><br />
       <footer className="flex items-center justify-center w-full h-24 border-t">
         <Link href="https://github.com/atordvairn/death-pegions">Add Another One</Link>
-        <br />
+        <br /><br />
         (c) atordvairn {new Date().getFullYear()} All Rights Reserved.
       </footer>
     </div>
