@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="/public/1.jpg">
+  <img src="/public/1.jpg" height="90px" width="auto">
   <H1>
     <a href="https://death-pegions.vercel.app/">
       death-pegions
