@@ -9,39 +9,29 @@ export default function Home() {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen py-2">
       <Head>
-        <title>death-pegions- a collection of pigeons photos like they're willing to die.</title>
+        <title>pegions- famously known as cool creators on earth 🌎</title>
         <link rel="icon" href="/1.jpg" />
       </Head>
 
       <main className="flex flex-col items-center justify-center w-full flex-1 px-20 text-center">
         <h1 className="text-6xl font-light">
-         death-pegions
+         pegions
         </h1>
 
         <p className="mt-3 text-2xl">
-          a collection of pigeons photos like they're willing to die.
+          They're cool.
         </p>
 
         <div className="flex flex-wrap items-center justify-around max-w-4xl mt-6 sm:w-full">
-          {!data && "Sharpening Knife..."}
-          {data && data.map(imgPath => <img src={imgPath} alt="DEath"/>)}
-
-         {/* <a href="" className="p-6 mt-6 text-left border w-96 rounded-xl hover:text-blue-600 focus:text-blue-600">
-           <Image
-             src={}
-             height={300}
-             width={auto}
-             placeholder="blur"
-           />
-          </a>*/}
-
+          {!data && "just hang on for a sec..."}
+          {data && data.map(imgPath => <img src={imgPath} alt="a cool pegion"/>)}
         </div>
       </main>
       <br /><br />
       <footer className="text-center m-3 p-3 items-center justify-center w-full h-24 border-t">
         (c) atordvairn {new Date().getFullYear()} All Rights Reserved.
         <br /><br />
-        <Link href="https://github.com/atordvairn/death-pegions">Add Another One</Link>
+        <Link href="https://github.com/atordvairn/pegions">Add Another One</Link>
       </footer>
     </div>
   )
