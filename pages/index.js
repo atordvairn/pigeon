@@ -1,8 +1,8 @@
 import Head from 'next/head'
 import useSWR from 'swr';
+import Link from 'next/link'
 
 export default function Home() {
-
   const fetcher = (url) => fetch(url).then((res) => res.json());
   const { data } = useSWR('/api/readfiles', fetcher);
 
@@ -37,9 +37,9 @@ export default function Home() {
 
         </div>
       </main>
-
+      <br /><br />
       <footer className="flex items-center justify-center w-full h-24 border-t">
-        END
+        <Link href="https://github.com/atordvairn/death-pegions">Add Another One</Link>
       </footer>
     </div>
   )
