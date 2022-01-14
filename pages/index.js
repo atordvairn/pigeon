@@ -14,6 +14,7 @@ export default function Home() {
         <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet" />
          <title>pigeon- famously known as cool creators on earth 🌎</title>
         <link rel="icon" href="/1.jpg" />
+        <meta name="google-site-verification" content="_Rb0aiRdwKfai-E6lTImkg92NG1517vRF2QM-H8aVg0" />
       </Head>
 
       <main className="flex flex-col items-center justify-center w-full flex-1 px-20 text-center">
